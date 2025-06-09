@@ -14,10 +14,10 @@ import os
 # ✅ 설정: 여기에 본인의 DB 접속 정보를 입력하세요
 DB_USER = "your_user"         # DB username / DB 사용자명
 DB_PASS = "your_pass"         # DB password / DB 비밀번호
-DB_HOST = "s2024.soxcorp.co.kr"
+DB_HOST = ""
 DB_PORT = 33306
-DB_NAME = "collectdata"
-TABLE_NAME = "vmap2025"
+DB_NAME = ""
+TABLE_NAME = ""
 CHUNKSIZE = 100_000  # Number of rows to process per chunk / 한 번에 처리할 행 수
 
 # 🔹 Extract bounding box (minX, maxX, minY, maxY) from geometry JSON
